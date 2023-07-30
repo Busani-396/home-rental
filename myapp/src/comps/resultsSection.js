@@ -3,7 +3,7 @@ import Links from "./utils.js/links";
 function ResultsSection(){
     return (
         <section className="container-fluid" >
-            <div class='container col-lg-6 col-md-6 '>
+            <div className='container col-lg-6 col-md-6 '>
                 {/******************* Links can render with dependencies changing***********************/}
                 <Links/>
                 </div>
@@ -11,11 +11,11 @@ function ResultsSection(){
                     <div className="font-small-1 container col-lg-9 col-md-9 col-sm-12 p-0 d-flex justify-content-between align-items-center border">
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <form className="m-0">
-                                <div class="btn-group">
+                                <div className="btn-group">
                                     <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                                     <strong>order by :</strong> Default
                                     </button>
-                                     <ul class="dropdown-menu dropdown-menu-end">
+                                     <ul className="dropdown-menu dropdown-menu-end">
                                         <li><button className="dropdown-item" type="button">Action</button></li>
                                         <li><button className="dropdown-item" type="button">Another action</button></li>
                                         <li><button className="dropdown-item" type="button">Something else here</button></li>
@@ -40,7 +40,7 @@ function ResultsSection(){
                                 image
                             </div>
                             <div className="col-lg-8  col-md-8 col-sm-12 d-flex flex-column justify-content-center align-items-start">
-                                <div class="property-listing-data col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <div className="property-listing-data col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between align-items-center">
                                     <div className="col-lg-6 col-md-6">
                                         <p>R6000</p>
                                         <p className="descrTitle">1 Bedroom</p>
@@ -68,7 +68,7 @@ function ResultsSection(){
                                 image
                             </div>
                             <div className="col-lg-8  col-md-8 col-sm-12 d-flex flex-column justify-content-center align-items-start">
-                                <div class="property-listing-data col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <div className="property-listing-data col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between align-items-center">
                                     <div className="col-lg-6 col-md-6">
                                         <p>R6000</p>
                                         <p className="descrTitle">1 Bedroom</p>
